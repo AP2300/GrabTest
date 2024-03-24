@@ -17,6 +17,11 @@ const Counter = () => {
     var minutes = `${Math.floor((timeleft % (1000 * 60 * 60)) / (1000 * 60))}`;
     var seconds = `${Math.floor((timeleft % (1000 * 60)) / 1000)}`;
 
+    if(days.length === 1) days = "0"+days
+    if(hours.length === 1) hours = "0"+hours
+    if(minutes.length === 1) minutes = "0"+minutes
+    if(seconds.length === 1) seconds = "0"+seconds
+
     setCount({ days, hours, minutes, seconds });
 
     // Display the message when countdown is over
