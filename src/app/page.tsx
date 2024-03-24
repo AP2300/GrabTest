@@ -226,11 +226,11 @@ export default function Home() {
       </section>
 
       <section
-        className="flex w-full h-screen bg-base-200 bg-no-repeat bg-cover items-center pl-32"
+        className="flex w-full h-screen bg-base-200 bg-no-repeat bg-cover items-center p-5 lg:pl-32"
         style={{ backgroundImage: `url(${pic6.src})` }}
       >
         <div className="flex flex-col gap-6 max-w-xl">
-          <h1 className="!m-0 !text-7xl text-black font-bold pb-4 !leading-normal">
+          <h1 className="!m-0 !text-5xl lg:!text-7xl text-black font-bold pb-4 !leading-normal">
             Lorem ipsum dolor sit.
           </h1>
           <p className="!m-0 text-black">
