@@ -104,7 +104,7 @@ export default function Home() {
       <section className="hero min-h-screen bg-base-200 pb-32">
         <div className="hero-content text-center max-w-none flex-col gap-7">
           <div className="max-w-3xl">
-            <h1 className="text-5xl font-bold !m-0">Lorem, ipsum.</h1>
+            <h1 className="text-5xl font-bold !m-0 pt-20">Lorem, ipsum.</h1>
             <p className="py-9 !m-0">
               Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
               excepturi exercitationem quasi. In deleniti eaque aut repudiandae
@@ -160,7 +160,7 @@ export default function Home() {
           {Array.from({ length: 6 }).map((_, idx) => (
             <div className="relative" key={idx}>
               <i className="fa-solid fa-play absolute text-white text-4xl top-1/3 left-1/2 -translate-x-1/2 -translate-y-1/2"></i>
-              <img src={pic4.src} alt="video pic" className="max-h-48 w-full" />
+              <img src={pic4.src} alt="video pic" className="max-h-56 w-full" />
               <p className="font-semibold">
                 Lorem ipsum dolor sit amet, consectetur.
               </p>

@@ -4,8 +4,8 @@ const Navbar = () => {
   return (
     <nav className="navbar bg-transparent absolute top-8 md:top-12 xl:px-20">
       <div className="flex-1">
-        <a className="btn btn-ghost h-auto md:my-3 py-1">
-          <img src={logo.src} alt="grab logo" className="w-28 md:w-56" />
+        <a className="btn btn-ghost h-auto md:my-3 py-1 md:pl-10">
+          <img src={logo.src} alt="grab logo" className="w-28 md:w-60" />
         </a>
       </div>
       <div className="flex-none">
