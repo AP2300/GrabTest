@@ -27,7 +27,7 @@ export default function RootLayout({
         />
       </head>
       <body className="prose dark:prose-invert prose-invert prose-md xl:prose-lg 2xl:prose-xl max-w-none h-full prose-img:m-0">
-        <div className="fixed top-1/2 right-0 flex flex-col bg-[#808080] text-xl -translate-y-1/2">
+        <div className="fixed top-1/2 right-0 flex flex-col bg-[#808080] text-xl -translate-y-1/2 z-50">
           <i className="fa-brands fa-facebook text-white px-5 pt-5 cursor-pointer"></i>
           <div className="divider w-full my-2.5"></div>
           <i className="fa-brands fa-twitter text-white px-5 pt-2.5 cursor-pointer"></i>
