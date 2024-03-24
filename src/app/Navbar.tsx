@@ -1,4 +1,3 @@
-import Image from "next/image";
 import logo from "../../public/img/icongrab.png";
 
 const Navbar = () => {

@@ -16,6 +16,22 @@
   }
 } */
 
+.customActiveBullet{
+  background-color: white !important;
+  opacity: 1 !important;
+}
+
+.customBullet{
+  background-color: transparent ;
+  border: 3px solid white;
+  border-radius: 100%;
+  opacity: 1 !important;
+  width: 1em;
+  height: 1em;
+  display: inline-block !important;
+  margin-left: .2em;
+  margin-right: .2em;
+}
 
 @layer utilities {
   .text-balance {
