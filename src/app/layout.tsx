@@ -27,20 +27,19 @@ export default function RootLayout({
         />
       </head>
       <body className="prose dark:prose-invert prose-invert prose-md xl:prose-lg 2xl:prose-xl max-w-none h-full prose-img:m-0">
-        <header className="bg-themegreen h-8 lg:h-14 flex items-center justify-center gap-4">
+        <header className="bg-themegreen h-8 lg:h-14 flex items-center justify-between md:justify-center  md:gap-16">
           <span className="font-bold text-lg lg:text-4xl uppercase text-white  h-8 lg:h-14 bg-red-500 py-1 flex gap-3 px-1 items-center">
             Live
             <i className="fa-solid fa-satellite-dish text-lg lg:!text-3xl"></i>
           </span>
-          <span className="text-xs lg:text-2xl text-white">
-            {" "}
-            Lorem ipsu dolor sit amet{" "}
+          <span className="text-xs sm:text-xl lg:text-4xl text-white text-nowrap">
+            Lorem ipsum dolor sit amet
           </span>
           <span className="bg-black/25 hover:bg-white/45 transition-all hover:cursor-pointer flex items-center justify-center h-8 lg:h-14 px-4 py-1 font-bold text-white text-xs lg:text-2xl uppercase">
-            Join Now &nbsp;&nbsp;<i className="fa-solid fa-circle-play text-lg lg:!text-3xl"></i>
+            Join Now &nbsp;&nbsp;
+            <i className="fa-solid fa-circle-play text-lg lg:!text-3xl"></i>
           </span>
         </header>
-        <Navbar/>
         {children}
       </body>
     </html>
