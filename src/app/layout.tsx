@@ -27,6 +27,17 @@ export default function RootLayout({
         />
       </head>
       <body className="prose dark:prose-invert prose-invert prose-md xl:prose-lg 2xl:prose-xl max-w-none h-full prose-img:m-0">
+        <div className="fixed top-1/2 right-0 flex flex-col bg-[#808080] text-xl -translate-y-1/2">
+          <i className="fa-brands fa-facebook text-white px-5 pt-5 cursor-pointer"></i>
+          <div className="divider w-full my-2.5"></div>
+          <i className="fa-brands fa-twitter text-white px-5 pt-2.5 cursor-pointer"></i>
+          <div className="divider w-full my-2.5"></div>
+          <i className="fa-brands fa-instagram text-white px-5 pt-2.5 cursor-pointer"></i>
+          <div className="divider w-full my-2.5"></div>
+          <i className="fa-brands fa-youtube text-white px-5 pt-2.5 cursor-pointer"></i>
+          <div className="divider w-full my-2.5"></div>
+          <i className="fa-brands fa-tiktok text-white px-5 pt-2.5 pb-5 cursor-pointer"></i>
+        </div>
         <header className="bg-themegreen h-8 lg:h-14 flex items-center justify-between md:justify-center  md:gap-16">
           <span className="font-bold text-lg lg:text-4xl uppercase text-white  h-8 lg:h-14 bg-red-500 py-1 flex gap-3 px-1 items-center">
             Live
